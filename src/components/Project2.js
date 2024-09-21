@@ -20,9 +20,11 @@ const Project2 = ({remfunc,onClose}) => {
     <div className='h-3 w-3 rounded-full bg-yellow-500 hover:cursor-pointer' onClick={closeWindow}></div>
     <div className='h-3 w-3 rounded-full bg-green-500 hover:cursor-pointer' onClick={closeWindow}></div>
 </div>
-<div>
+<div className='overflow-y-hidden'>
     <h2 className='mt-10 ml-10 font-bold text-3xl'>Projects</h2>
+    
     <ProjectItem2/>
+
 </div>
 </div>
 </div></Draggable>
